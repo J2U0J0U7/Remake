@@ -1,7 +1,20 @@
-.background{
+.splash{
     background-image: url(../img/img/bg.png);
-    height: 1000px;
-
-   background-size: cover;
-    
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    padding-top: 40px;
+    height: 835px;
+}
+.btn-outline-light.active,
+.btn-outline-light:hover{
+    border-radius: 45px;
+    padding: 5px 15px;
+    background-color: rgba(red, green, blue, alpha);
+    border: 1px solid white;
+    color: white;
+}
+.btn-outline-light{
+    padding: 5px 15px;
+    border: none;
 }
